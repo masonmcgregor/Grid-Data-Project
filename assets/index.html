@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive engineering project portfolio by Mason McGregor.">
+  <meta name="theme-color" content="#071a2f">
+  <title>Grid Data Project | Mason McGregor</title>
+  <link rel="stylesheet" href="style.css?v=6.0">
+  <script src="script.js?v=6.0" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Return to the top of Mason McGregor’s project page" title="Back to top">
+      <span class="brand-mark">MM</span>
+      <span class="brand-name">Mason McGregor</span>
+    </a>
+
+    <nav aria-label="Primary navigation">
+      <a href="#challenge">Challenge</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#results">Results</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <a class="header-cta" href="assets/grid-data-poster.pdf" target="_blank" rel="noopener">
+      View poster
+    </a>
+
+    <button
+      type="button"
+      class="menu-toggle"
+      id="menuToggle"
+      aria-expanded="false"
+      aria-controls="mobileMenu"
+      aria-label="Open site navigation"
+    >
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#challenge">Challenge</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#results">Results</a>
+      <a href="#about">About</a>
+      <a href="assets/grid-data-poster.pdf" target="_blank" rel="noopener">
+        Poster
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">INTERACTIVE ENGINEERING PROJECT</p>
+        <h1>Turning 10 Years of Grid Data Into Engineering Insight</h1>
+        <p class="hero-lead">
+          A reusable workflow that transforms historical grid operating data into
+          organized records, statistical analysis, and visual reports for engineering studies.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#workflow">
+            Explore the workflow
+            <span aria-hidden="true">↓</span>
+          </a>
+          <a class="button button-ghost" href="https://www.linkedin.com/in/mason-mcgregor-97270738a/" target="_blank" rel="noopener">
+            LinkedIn
+          </a>
+          <a class="button button-ghost" href="assets/mason-mcgregor-resume.pdf" target="_blank" rel="noopener">
+            Résumé
+          </a>
+        </div>
+
+        <p class="confidentiality-note">
+          Public-facing content is anonymized and excludes proprietary system information.
+        </p>
+      </div>
+
+      <div class="hero-system reveal" aria-label="Project scale">
+        <div class="orbit orbit-large"></div>
+        <div class="orbit orbit-medium"></div>
+        <div class="orbit orbit-small"></div>
+
+        <div class="data-core">
+          <span class="core-kicker">PROJECT SCALE</span>
+          <strong><span class="counter" data-target="10">0</span> YEARS</strong>
+          <span class="core-divider"></span>
+          <strong><span class="counter" data-target="87000">0</span>+</strong>
+          <small>hourly records<br>per data stream</small>
+        </div>
+
+        <span class="orbit-label label-one">MW</span>
+        <span class="orbit-label label-two">MVAR</span>
+        <span class="orbit-label label-three">PF</span>
+        <span class="orbit-label label-four">TIME</span>
+      </div>
+
+      <a class="scroll-cue" href="#challenge" aria-label="Scroll to project challenge">
+        <span>Scroll to explore</span>
+        <i></i>
+      </a>
+    </section>
+
+    <section class="definition-strip" aria-label="SCADA definition">
+      <span>SCADA</span>
+      <p>Hourly operating data collected from equipment across the electric grid.</p>
+    </section>
+
+    <section class="section section-light" id="challenge">
+      <div class="section-intro reveal">
+        <p class="eyebrow">THE CHALLENGE</p>
+        <h2>Ten years of valuable operating history—but turning it into useful insight took too much manual effort.</h2>
+      </div>
+
+      <div class="challenge-layout">
+        <article class="challenge-copy reveal">
+          <p>
+            Historical records were distributed across raw files with inconsistent naming,
+            formatting, and data quality. Engineers needed a repeatable way to move from
+            scattered source data to trustworthy analysis.
+          </p>
+
+          <div class="before-after">
+            <div class="state state-before">
+              <span class="state-label">BEFORE</span>
+              <h3>Manual file review</h3>
+              <ul>
+                <li>Separate raw files</li>
+                <li>Inconsistent component names</li>
+                <li>Repeated cleaning and plotting</li>
+              </ul>
+            </div>
+
+            <div class="transition-arrow" aria-hidden="true">→</div>
+
+            <div class="state state-after">
+              <span class="state-label">AFTER</span>
+              <h3>Repeatable engineering workflow</h3>
+              <ul>
+                <li>Standardized records</li>
+                <li>Searchable historical data</li>
+                <li>Automated statistics and reports</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <div class="metric-stack reveal">
+          <article class="metric-card">
+            <span class="metric-number counter" data-target="10">0</span>
+            <span class="metric-unit">years</span>
+            <p>of historical operating records</p>
+          </article>
+
+          <article class="metric-card">
+            <span class="metric-number counter" data-target="87000">0</span>
+            <span class="metric-unit">+</span>
+            <p>hourly records per data stream</p>
+          </article>
+
+          <article class="metric-card">
+            <span class="metric-number">6</span>
+            <span class="metric-unit">stages</span>
+            <p>from raw data to engineering decisions</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="workflow">
+      <div class="section-intro reveal">
+        <p class="eyebrow">INTERACTIVE WORKFLOW</p>
+        <h2>Follow the data from source files to engineering decisions.</h2>
+        <p>Select a stage to zoom into its input, process, output, and engineering value.</p>
+        <p class="workflow-mode-note"><span>FOCUS MODE</span> Tap or click any stage · swipe or use the controls to move</p>
+      </div>
+
+      <div class="workflow-shell reveal">
+        <div class="workflow-line" aria-hidden="true"></div>
+        <div class="workflow-steps" id="workflowSteps"></div>
+      </div>
+
+      <div class="workflow-focus-prompt reveal" aria-hidden="true">
+        <span>Choose a stage above to enter the interactive focus view.</span>
+      </div>
+    </section>
+
+    <section class="section section-light" id="results">
+      <div class="section-intro reveal">
+        <p class="eyebrow">EXAMPLE OUTPUT</p>
+        <h2>Visual reports make long-term behavior easier to interpret.</h2>
+      </div>
+
+      <div class="result-layout">
+        <figure class="chart-card reveal">
+          <div class="chart-header">
+            <div>
+              <span class="chart-kicker">ANONYMIZED EXAMPLE</span>
+              <h3>MW, MVAR &amp; power factor over time</h3>
+            </div>
+            <span class="final-asset-label">FINAL GRAPH</span>
+          </div>
+
+          <a
+            class="chart-media lightbox-trigger"
+            href="assets/anonymized-time-series.png"
+            target="_blank"
+            rel="noopener"
+            data-image="assets/anonymized-time-series.png"
+            data-caption="Anonymized MW, MVAR, and leading/lagging power-factor time series."
+            aria-label="Enlarge the anonymized time-series graph"
+          >
+            <img
+              class="chart-image"
+              src="assets/anonymized-time-series.png"
+              alt="Anonymized time-series plots for MW, MVAR, and leading or lagging power factor across approximately ten years"
+              loading="lazy"
+            >
+            <span class="zoom-hint">Click to enlarge</span>
+          </a>
+
+          <figcaption>
+            Approved anonymized example showing seasonal behavior, rolling averages,
+            extrema, and long-term operating patterns.
+            <a href="assets/anonymized-time-series.png" target="_blank" rel="noopener">
+              Open full-resolution graph ↗
+            </a>
+          </figcaption>
+        </figure>
+
+        <aside class="insight-panel reveal">
+          <p class="eyebrow">WHAT THE REPORTS REVEAL</p>
+          <div class="insight-list">
+            <article>
+              <span>01</span>
+              <div><h3>Long-term trends</h3><p>Identify gradual changes and recurring seasonal behavior.</p></div>
+            </article>
+            <article>
+              <span>02</span>
+              <div><h3>Operating range</h3><p>Compare average, minimum, maximum, and variability.</p></div>
+            </article>
+            <article>
+              <span>03</span>
+              <div><h3>Unusual events</h3><p>Highlight changes that deserve closer engineering review.</p></div>
+            </article>
+            <article>
+              <span>04</span>
+              <div><h3>Power-factor behavior</h3><p>Summarize performance across components and time periods.</p></div>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="impact-section">
+      <div class="impact-grid">
+        <article class="impact-item reveal">
+          <span class="impact-icon">↗</span>
+          <strong>Faster</strong>
+          <p>engineering studies</p>
+        </article>
+        <article class="impact-item reveal">
+          <span class="impact-icon">≋</span>
+          <strong>Consistent</strong>
+          <p>analysis methods</p>
+        </article>
+        <article class="impact-item reveal">
+          <span class="impact-icon">⌕</span>
+          <strong>Searchable</strong>
+          <p>historical records</p>
+        </article>
+        <article class="impact-item reveal">
+          <span class="impact-icon">↻</span>
+          <strong>Reusable</strong>
+          <p>reporting workflow</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="about-layout">
+        <div class="about-copy reveal">
+          <p class="eyebrow">ABOUT THE PROJECT</p>
+          <h2>Built at the intersection of power systems, automation, and data analysis.</h2>
+          <p>
+            This project demonstrates how engineering software can transform large historical
+            datasets into practical, repeatable insight while reducing repetitive manual work.
+          </p>
+        </div>
+
+        <aside class="profile-card reveal">
+          <img
+            class="profile-photo"
+            src="assets/mason-mcgregor-headshot.jpg"
+            alt="Professional headshot of Mason McGregor"
+            loading="lazy"
+          >
+          <div>
+            <span class="profile-label">PROJECT AUTHOR</span>
+            <h3>Mason McGregor</h3>
+            <p>Electrical Engineering Student<br>South Dakota State University</p>
+          </div>
+
+          <div class="profile-links">
+            <a class="button button-primary" href="https://www.linkedin.com/in/mason-mcgregor-97270738a/" target="_blank" rel="noopener">
+              Connect on LinkedIn
+            </a>
+            <a class="button button-outline" href="assets/mason-mcgregor-resume.pdf" target="_blank" rel="noopener">
+              View résumé
+            </a>
+            <a class="button button-outline" href="assets/grid-data-poster.pdf" target="_blank" rel="noopener">
+              View poster
+            </a>
+          </div>
+          <p class="resource-note">
+            View the final résumé and project poster for additional details.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="reveal">
+        <p class="eyebrow">THE KEY TAKEAWAY</p>
+        <h2>Historical data becomes valuable when engineers can access, trust, and understand it.</h2>
+        <a class="button button-primary" href="#workflow">Explore the workflow again ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Mason McGregor</p>
+    <p>Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <div class="workflow-focus" id="workflowFocus" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="focusTitle">
+    <div class="workflow-focus-backdrop" data-workflow-close></div>
+
+    <section class="workflow-focus-panel" id="workflowFocusPanel">
+      <button type="button" class="workflow-focus-close" id="workflowFocusClose" aria-label="Close focus view">×</button>
+
+      <div class="focus-stage-card">
+        <span class="focus-mode-label">PROCESS FOCUS</span>
+        <div class="focus-stage-icon" id="focusIcon">01</div>
+        <span class="focus-stage-number" id="focusNumber">STAGE 01 OF 06</span>
+        <h3 id="focusTitle">Raw Grid Data</h3>
+        <p id="focusCaption">Historical hourly records</p>
+        <div class="focus-flow-line" aria-hidden="true"><i></i></div>
+        <p class="focus-stage-help">Use the controls or keyboard arrows to travel through the workflow.</p>
+      </div>
+
+      <div class="focus-information" id="focusInformation" aria-live="polite">
+        <div class="focus-information-heading">
+          <div>
+            <p class="eyebrow">ZOOMED PROCESS VIEW</p>
+            <h4 id="focusHeading">How this stage works</h4>
+          </div>
+          <span class="focus-progress-text" id="focusProgressText">1 / 6</span>
+        </div>
+
+        <div class="focus-detail-grid">
+          <article>
+            <span class="focus-detail-label"><i aria-hidden="true">I</i>INPUT</span>
+            <p id="focusInput"></p>
+          </article>
+          <article>
+            <span class="focus-detail-label"><i aria-hidden="true">P</i>PROCESS</span>
+            <p id="focusProcess"></p>
+          </article>
+          <article>
+            <span class="focus-detail-label"><i aria-hidden="true">O</i>OUTPUT</span>
+            <p id="focusOutput"></p>
+          </article>
+          <article class="focus-value-card">
+            <span class="focus-detail-label"><i aria-hidden="true">V</i>ENGINEERING VALUE</span>
+            <p id="focusValue"></p>
+          </article>
+        </div>
+
+        <div class="focus-controls">
+          <button type="button" id="focusPrev">← Previous stage</button>
+          <div class="focus-dots" id="focusDots" aria-label="Workflow stage selection"></div>
+          <button type="button" id="focusNext">Next stage →</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="lightbox" id="imageLightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded project image">
+    <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close expanded image">×</button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <p id="lightboxCaption"></p>
+    </div>
+  </div>
+</body>
+</html>
